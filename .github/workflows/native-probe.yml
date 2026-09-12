@@ -1,7 +1,7 @@
 name: aws-c-http native Windows ARM64
 on:
   push:
-    branches: [codex/aws-http-arm64-probe]
+    branches: [codex/aws-http-pinned-arm64-probe]
 permissions:
   contents: read
   actions: read
