@@ -1,5 +1,0 @@
-cmake_minimum_required(VERSION 3.15)
-project(http_consumer LANGUAGES C)
-find_package(aws-c-http CONFIG REQUIRED)
-add_executable(http_consumer consumer.c)
-target_link_libraries(http_consumer PRIVATE AWS::aws-c-http)
